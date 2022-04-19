@@ -2,9 +2,9 @@ import './App.css';
 import {HashRouter} from 'react-router-dom'
 import Main from "./presenters/mainPresenter"
 
-function App(props) {
+function App() {
   return (
-    <HashRouter>
+    <HashRouter className="app">
         <Main/>
     </HashRouter>
   );
