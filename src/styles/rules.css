@@ -5,3 +5,86 @@
     border: 2px solid orange
 }
 
+.rulesContainer > .content {
+    background-color: var(--info-color);
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    height: 10vw;
+    width: 10vw;
+    margin: 1em;
+}
+  
+.cardSide {
+    height: 12vw;
+    width: 12vw;
+    -webkit-transition: all 0.8s ease;
+    transition: all 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.cardSide--front {
+    background: linear-gradient(-135deg, #2dace7, #64b5f6);
+}
+  
+.cardSide--back {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background: linear-gradient(-45deg, #64b5f6, #2dace7);
+}
+  
+.card:hover .cardSide--front {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+}
+  
+.card:hover .cardSide--back {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+}
+  
+.cardTitle {
+    height: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+  
+.cardDetails {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+.cardDetails > .title {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.cardDetails > .description {
+    font-size: 2.7vh;
+}

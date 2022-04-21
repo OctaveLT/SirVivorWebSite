@@ -16,7 +16,7 @@ body {
   --white-color: white;
   --text-dark-color: rgb(37, 37, 37);
   --text-light-color: rgb(237, 237, 237);
-  --info-color: rgb(255, 170, 0, 0.7);
+  --info-color: rgba(51, 130, 71, 0.315);
 }
 
 /* width */

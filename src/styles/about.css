@@ -1,7 +1,34 @@
 .aboutContainer {
     text-align: center;
-    font-size: 8em;
     height: 99vh;
-    border: 2px solid purple
+    border: 2px solid purple;
+    font-size: 10vh;
+}
+
+.aboutContainer > div {
+    display: flex;
+    flex-direction:row;
+}
+
+.content {
+    flex-grow: 1;
+    font-size: 3.5vh;
+    background-color: var(--info-color);
+    margin: 1em;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+p > a {
+    padding: 5px
+}
+
+img {
+    width: 15vw;
+    height: 15vw;
 }
 
