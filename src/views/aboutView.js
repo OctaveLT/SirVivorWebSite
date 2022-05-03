@@ -7,7 +7,7 @@ import {GitHubIcon, LinkedInIcon} from "../assets/Icons"
 export default function AboutView() {
   return (
     <div className='aboutContainer'>
-        About: Team contact/Project course?
+        The Team
         <div>
             {teamMemberData.map(data =>
                 <div className='content'>
@@ -21,7 +21,6 @@ export default function AboutView() {
             }
         </div>
     </div>
-
   )
 }
 

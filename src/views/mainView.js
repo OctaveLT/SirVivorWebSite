@@ -15,8 +15,8 @@ export default function MainView(props) {
         <Route path="/*" element={
           <div>
             <HomeView/>
-            <DemoView/>
             <RulesView/>
+            <DemoView/>
             <AboutView/>
           </div>
         }></Route>

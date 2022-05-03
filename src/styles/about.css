@@ -1,8 +1,11 @@
 .aboutContainer {
     text-align: center;
     height: 99vh;
-    border: 2px solid purple;
-    font-size: 10vh;
+    font-size: 7em;
+    padding-top: 0.5em;
+    background-image: url("../assets/dirt_desatured_rocks_down.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .aboutContainer > div {
@@ -13,9 +16,19 @@
 .content {
     flex-grow: 1;
     font-size: 3.5vh;
-    background-color: var(--info-color);
+    background-color: var(--brown-color);
     margin: 1em;
     padding: 10px;
+    box-shadow: 1px 2px 5px 1px;
+    border-radius: 1em;
+}
+
+.aboutContainer > div > .content {
+    box-shadow: 1px 2px 5px 1px;
+}
+
+.aboutContainer > div >.content:hover {
+    box-shadow: 1px 2px 10px 1px;
 }
 
 p {

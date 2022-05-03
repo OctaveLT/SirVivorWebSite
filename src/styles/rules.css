@@ -1,14 +1,23 @@
 .rulesContainer {
     text-align: center;
-    font-size: 8em;
+    font-size: 7em;
     height: 99vh;
-    border: 2px solid orange
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.rulesContainer {
+    background-image: url("../assets/Grass_lighted_left.png");
+    background-attachment: fixed;
 }
 
 .rulesContainer > .content {
-    background-color: var(--info-color);
-    padding-left: 10vw;
-    padding-right: 10vw;
+    background-color: var(--brown-color);
+    opacity: 90%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 9vw;
+    margin-right: 9vw;
 }
 
 .card {
@@ -17,6 +26,7 @@
     height: 10vw;
     width: 10vw;
     margin: 1em;
+    color: rgb(115, 54, 54)
 }
   
 .cardSide {
@@ -34,13 +44,16 @@
 }
 
 .cardSide--front {
-    background: linear-gradient(-135deg, #2dace7, #64b5f6);
+    background: linear-gradient(-135deg, white, var(--grey-color));
+/*  background-color: var(--grey-color); */
+    box-shadow: 1px 1px 10px 1px rgb(65, 51, 51);
 }
   
 .cardSide--back {
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
-    background: linear-gradient(-45deg, #64b5f6, #2dace7);
+    background: linear-gradient(-45deg, var(--grey-color), white);
+    box-shadow: 1px 1px 10px 1px rgb(65, 51, 51);
 }
   
 .card:hover .cardSide--front {

@@ -1,7 +1,26 @@
 .demoContainer {
     text-align: center;
-    font-size: 8em;
+    font-size: 7em;
     height: 99vh;
-    border: 2px solid green
+    background-color: #085F08;
+    background-image: url("../assets/capture2bis.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+.demoContainer > div {
+    background-color: rgba(140, 66, 66, 0.445);
+    height: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.demoContainer > div > h5 {
+    margin: 0
+}
+
+.demoContainer > div > iframe {
+    box-shadow: 1px 1px 10px 2px black;
+}
+
 

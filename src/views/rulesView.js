@@ -4,7 +4,7 @@ import "../styles/rules.css"
 export default function RulesView() {
   return (
     <div className='rulesContainer'>
-        Rules/Pitch?
+        Specificities
         <div className='content'>
           {rulesData.map(rule => {
             return(

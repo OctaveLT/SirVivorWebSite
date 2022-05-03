@@ -9,6 +9,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-family: MiddleAgeFont, Arial, serif;
+  color: rgb(224, 217, 217);
 }
 
 :root {
@@ -17,6 +18,10 @@ body {
   --text-dark-color: rgb(37, 37, 37);
   --text-light-color: rgb(237, 237, 237);
   --info-color: rgba(51, 130, 71, 0.315);
+  --grey-color: #a9a0a2;
+  --brown-color: #806A56;
+  --dark-green-color: #03440C;
+  --light-green-color: #8DB580;
 }
 
 /* width */
