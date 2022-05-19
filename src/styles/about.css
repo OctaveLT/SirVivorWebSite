@@ -1,8 +1,7 @@
 .aboutContainer {
     text-align: center;
-    height: 99vh;
-    font-size: 7em;
-    padding-top: 0.5em;
+    min-height: 99vh;
+    padding-top: 4em;
     background-image: url("../assets/dirt_desatured_rocks_down.png");
     background-size: cover;
     background-attachment: fixed;

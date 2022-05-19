@@ -6,6 +6,7 @@ import HomeView from './homeView'
 import AboutView from './aboutView'
 import RulesView from './rulesView'
 import DemoView from './demoView'
+import AudioView from "./audioView"
 
 export default function MainView(props) {
   return (
@@ -17,6 +18,7 @@ export default function MainView(props) {
             <HomeView/>
             <RulesView/>
             <DemoView/>
+            <AudioView/>
             <AboutView/>
           </div>
         }></Route>

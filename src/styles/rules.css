@@ -1,9 +1,8 @@
 .rulesContainer {
     text-align: center;
-    font-size: 7em;
-    height: 99vh;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    min-height: 99vh;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .rulesContainer {
@@ -14,19 +13,72 @@
 .rulesContainer > .content {
     background-color: var(--brown-color);
     opacity: 90%;
-    padding-left: 1vw;
-    padding-right: 1vw;
+/*     padding-left: 9vw;
+    padding-right: 9vw;
     margin-left: 9vw;
-    margin-right: 9vw;
+    margin-right: 9vw; */
+    display: flex;
+    justify-content: center;
 }
+
+.rulesContainer img {
+    width: 27vw;
+    margin: 1em;
+/*     animation: opacity 0.3s ease;
+    transition: opacity 0.5s linear; */
+    box-shadow: 1px 1px 20px 1px black;
+    border-radius: 0.5em;
+}
+
+.rulesContainer button {
+    border-radius: 3em;
+    border: none;
+}
+
+.rulesContainer .arrow {
+    font-size: 3vw;
+}
+
+.rulesContainer > .content > .arrowContainer  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    max-width: 3vw;
+}
+
+.arrow:hover {
+    color:rgb(65, 51, 51);
+}
+
+.content img.left,
+.content img.right {
+    opacity: 0.5;
+    width: 23vw;
+}
+
+/* .rulesContainer > .content > div > p{
+    background-color: red;
+    margin: 1em;
+    position: absolute;
+} */
+
+@keyframes opacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .card {
     position: relative;
     display: inline-block;
-    height: 10vw;
-    width: 10vw;
-    margin: 1em;
-    color: rgb(115, 54, 54)
+    height: 11vw;
+    width: 11vw;
+    margin: 1em 3em 1em 3em;
+    color: rgb(115, 54, 54);
 }
   
 .cardSide {
@@ -94,10 +146,10 @@
 }
 
 .cardDetails > .title {
-    font-size: 4vh;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
 .cardDetails > .description {
-    font-size: 2.7vh;
+    font-size: 1vw;
 }

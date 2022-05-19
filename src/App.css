@@ -10,6 +10,19 @@ body {
   background-size: cover;
   font-family: MiddleAgeFont, Arial, serif;
   color: rgb(224, 217, 217);
+  letter-spacing: 4px;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 9vmax;
+  text-shadow: 1px 1px 10px;
+}
+
+h1 {
+  font-size: 15vmax;
 }
 
 :root {
@@ -19,7 +32,7 @@ body {
   --text-light-color: rgb(237, 237, 237);
   --info-color: rgba(51, 130, 71, 0.315);
   --grey-color: #a9a0a2;
-  --brown-color: #806A56;
+  --brown-color: #806a56c2;
   --dark-green-color: #03440C;
   --light-green-color: #8DB580;
 }
