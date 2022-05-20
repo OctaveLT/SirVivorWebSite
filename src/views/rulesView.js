@@ -32,7 +32,7 @@ export default function RulesView() {
   }
 
   return (
-    <div className='rulesContainer'>
+    <div className='rulesContainer' id="rulesLink">
         <h2>Specificities</h2>
 {/*         <div className='content'>
           {rulesData.map(rule => {

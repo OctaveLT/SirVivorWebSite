@@ -3,7 +3,7 @@ import "../styles/audio.css"
 
 export default function AudioView() {
   return (
-    <div className='audioContainer'>
+    <div className='audioContainer' id="audioLink">
         <h1>Sir Vivor</h1>
         <audio src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1268928949&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" controls autoPlay/>
         

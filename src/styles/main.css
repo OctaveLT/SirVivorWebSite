@@ -1,5 +1,15 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
 .mainContainer, .mainContainer > div {
     width: 100%;
     height: 100%;
+}
+
+.scrollView {
+    border: 1px solid red;
+    margin-top: 2em;
 }
 

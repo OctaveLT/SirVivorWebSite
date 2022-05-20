@@ -5,7 +5,7 @@ import logoImg from "../assets/logo.png";
 
 export default function HomeView() {
   return (
-    <div className='homeContainer'>
+    <div className='homeContainer' id="homeLink">
         <div>
           <img src={logoImg}/>
         </div>
