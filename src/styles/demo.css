@@ -18,4 +18,10 @@
     box-shadow: 1px 1px 10px 2px black;
 }
 
+@media (max-width: 600px) {
+    .demoContainer > div > iframe {
+        width: 90vw;
+        height: 30vh;
+    }
+}
 

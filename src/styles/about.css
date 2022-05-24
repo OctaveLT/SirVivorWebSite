@@ -10,37 +10,50 @@
 .aboutContainer > div {
     display: flex;
     flex-direction:row;
-}
-
-.content {
-    flex-grow: 1;
-    font-size: 3.5vh;
-    background-color: var(--brown-color);
-    margin: 1em;
-    padding: 10px;
-    box-shadow: 1px 2px 5px 1px;
-    border-radius: 1em;
+    justify-content: center;
 }
 
 .aboutContainer > div > .content {
-    box-shadow: 1px 2px 5px 1px;
+    font-size: 3.5vmin;
+    background-color: var(--brown-color);
+    margin: 1em;
+    padding: 1em 0em 0em 0em;
+    box-shadow: 1px 2px 50px 1px black;
+    height: calc(15vmax + 10vh);
+    width: 15vmax;
 }
 
-.aboutContainer > div >.content:hover {
+.aboutContainer > div > .content:hover {
     box-shadow: 1px 2px 10px 1px;
 }
 
-p {
+/* .aboutContainer > div > .content > p {
     margin: 0;
     padding: 0;
+    width: 15vmax;
+} */
+
+.content > p:first-child {
+    height: 8vh;
+    padding-bottom: 2vh;
 }
 
-p > a {
+.content > p > a {
     padding: 5px
 }
 
 img {
-    width: 15vw;
-    height: 15vw;
+    width: 15vmax;
+    height: 15vmax;
 }
 
+@media (max-width: 600px) {
+    .aboutContainer > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutContainer > div > .content {
+        margin-bottom: 10vh;
+    }
+}

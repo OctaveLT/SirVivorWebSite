@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import "../styles/navBar.css"
 
-export default function NavBarContainer() {
+export default function NavBarView() {
   return (
     <div className='navBarContainer'>
         <Link activeClass="active" to="homeLink" spy={true} smooth={true}>Home</Link>
@@ -10,7 +10,6 @@ export default function NavBarContainer() {
         <Link  to="demoLink" spy={true} smooth={true}>Demo</Link>
         <Link  to="audioLink" spy={true} smooth={true}>Audio</Link>
         <Link  to="aboutLink" spy={true} smooth={true}>About</Link>
-        <Link  to="serviceLink" spy={true} smooth={true}>Service</Link>
     </div>
   )
 }

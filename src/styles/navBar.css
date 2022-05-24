@@ -1,7 +1,25 @@
 .navBarContainer {
     position: fixed;
-    display: flex;
     width: 100%;
-    background-color: red;
+    background-color: rgba(142, 115, 115, 0.568);
+    left: 0;
+    padding: 1em 0em 1em 0em;
+}
+
+.navBarContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.navBarContainer > * {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.navBarContainer > *:hover {
+    opacity: 0.5;
 }
 

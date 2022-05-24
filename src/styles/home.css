@@ -23,7 +23,7 @@
 }
 
 .homeContainer > div > img {
-    height: 40vmax;
+    height: 34vmax;
     width: auto;
     /* Lag too much */
 /*     filter: drop-shadow(10px 10px 50px rgba(0,0,0)); */

@@ -14,8 +14,8 @@ export default function AboutView() {
     <div className='aboutContainer' id="aboutLink">
         <h2>The Team</h2>
         <div>
-            {teamMemberData.map(data =>
-                <div className='content'>
+            {teamMemberData.map((data, i) =>
+                <div className='content' key={"member" + i}>
                     <p>{data.name}</p>
                     <p>
                         <a className="social" href={data.githubURL} target="_blank" rel="noreferrer" title="Open GitHub profile"><GitHubIcon /></a>
@@ -51,7 +51,7 @@ const teamMemberData = [
     {
         name: "Octave Le Tullier",
         img: OctaveImg,
-        githubURL: "https://www.kth.se/",
+        githubURL: "https://github.com/OctaveLT",
         linkedInURL: "https://www.linkedin.com/in/octave-le-tullier-10b9141b3",
     },
     {
