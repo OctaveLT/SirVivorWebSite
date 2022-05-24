@@ -21,9 +21,6 @@
     background-color: var(--brown-color);
     margin: 1em;
     padding: 1em 0em 0em 0em;
-    /*box-shadow: 1px 2px 50px 1px black;*/
-    /*height: calc(15vmax + 10vh);*/
-    /*border: 1px solid #8d7644;*/
     width: 15vmax;
 }
 
@@ -69,5 +66,18 @@ img {
 
     .aboutContainer > div > .content {
         margin-bottom: 10vh;
+        margin: 1em;
+        padding: 1em 0em 0em 0em;
+        width: 30vmax;
+    }
+
+    .content > p > a {
+        padding: 8px;
+        position: absolute;
+        transform: translateX(-6vmax);
+    }
+    
+    .content > p > a:first-child {
+        transform: translateX(0);
     }
 }
