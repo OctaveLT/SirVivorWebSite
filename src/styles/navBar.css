@@ -4,6 +4,7 @@
     background-color: rgba(142, 115, 115, 0.568);
     left: 0;
     padding: 1em 0em 1em 0em;
+    z-index: 100;
 }
 
 .navBarContainer {

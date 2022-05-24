@@ -62,16 +62,16 @@ export default function RulesView() {
         <div className='content'>
           
           <div>
-            <img src={rulesData[getIndex(index + 1)].img} alt={getIndex(index + 1)} className="left"/>
+            {/* <img src={rulesData[getIndex(index + 1)].img} alt={getIndex(index + 1)} className="left"/> */}
             <div className='arrowContainer'><ArrowLeft onClick={slideLeft} className="arrow left"/></div>
           </div>
-          <div>
+          <div className='slideContainer'>
             <h3>{rulesData[getIndex(index)].name}</h3>
             <img src={rulesData[getIndex(index)].img} alt={getIndex(index)} />
             <p>{rulesData[getIndex(index)].description}</p>
           </div>  
           <div>
-          <img src={rulesData[getIndex(index - 1)].img} alt={getIndex(index - 1)} className="right"/>
+          {/* <img src={rulesData[getIndex(index - 1)].img} alt={getIndex(index - 1)} className="right"/> */}
           <div className='arrowContainer'><ArrowRight onClick={slideRight} className="arrow right"/></div>
           </div>    
         </div>    
@@ -89,12 +89,12 @@ const rulesData = [
   {
     name: "Design",
     description: "Discover a low-poly world in a cartoonish universe.",
-    img: Slide2
+    img: Slide1
   },
   {
     name: "Genre",
     description: "Enjoy a roguelike game like no-one.",
-    img: Slide3
+    img: Slide1
   },
   {
     name: "Survive",

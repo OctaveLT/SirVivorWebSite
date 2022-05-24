@@ -40,26 +40,35 @@
 }
 
 .rulesContainer .arrow {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
-.rulesContainer > .content > .arrowContainer  {
+.rulesContainer .arrow:hover {
+    font-size: 6vw;
+}
+
+.rulesContainer > .content > div > .arrowContainer  {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-grow: 1;
+    align-items: center;
     max-width: 3vw;
+    height: 100%;
 }
 
 .arrow:hover {
     color:rgb(65, 51, 51);
 }
 
-.content img.left,
+/* .content img.left,
 .content img.right {
     opacity: 0.5;
     width: 16vw;
-    
+    margin-top: 70%;
+} */
+
+.slideContainer {
+    min-width: 60vw;
 }
 
 /* .rulesContainer > .content > div > p{

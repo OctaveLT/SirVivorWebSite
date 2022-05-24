@@ -25,7 +25,6 @@
     /*height: calc(15vmax + 10vh);*/
     /*border: 1px solid #8d7644;*/
     width: 15vmax;
-
 }
 
 .aboutContainer > div > .content img:hover {
@@ -33,19 +32,18 @@
     transform: scale(1.1);
 }
 
-/* .aboutContainer > div > .content > p {
-    margin: 0;
-    padding: 0;
-    width: 15vmax;
-} */
-
-.content > p:first-child {
-    height: 8vh;
-    padding-bottom: 2vh;
+.content > p {
+    height: 8vmin;
 }
 
 .content > p > a {
     padding: 8px;
+    position: absolute;
+    transform: translateX(-3vmax);
+}
+
+.content > p > a:first-child {
+    transform: translateX(0);
 }
 
 img {
