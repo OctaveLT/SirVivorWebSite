@@ -16,12 +16,12 @@ export default function AboutView() {
         <div>
             {teamMemberData.map((data, i) =>
                 <div className='content' key={"member" + i}>
+                    <img src={data.img} alt=""></img>
                     <p>{data.name}</p>
                     <p>
                         <a className="social" href={data.githubURL} target="_blank" rel="noreferrer" title="Open GitHub profile"><GitHubIcon /></a>
                         {data.linkedInURL && <a className="social" href={data.linkedInURL} target="_blank" rel="noreferrer" title="Open LinkedIn profile"><LinkedInIcon /></a>}
-                    </p>
-                    <img src={data.img} alt=""></img>
+                    </p>  
                 </div>)
             }
         </div>

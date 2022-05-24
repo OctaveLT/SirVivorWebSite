@@ -3,10 +3,12 @@
     min-height: 99vh;
     padding-top: 4em;
     padding-bottom: 4em;
+    color:#3c2d0a;
 }
 
 .rulesContainer {
-    background-image: url("../assets/Grass_lighted_left.png");
+    /*background-image: url("../assets/Grass_lighted_left.png");*/
+    background-color: #d4d1c7;
     background-attachment: fixed;
 }
 
@@ -23,7 +25,8 @@
 }
 
 .rulesContainer img {
-    width: 27vw;
+    width: 44vw;
+    height: auto;
     margin: 1em;
 /*     animation: opacity 0.3s ease;
     transition: opacity 0.5s linear; */
@@ -55,7 +58,8 @@
 .content img.left,
 .content img.right {
     opacity: 0.5;
-    width: 23vw;
+    width: 16vw;
+    
 }
 
 /* .rulesContainer > .content > div > p{

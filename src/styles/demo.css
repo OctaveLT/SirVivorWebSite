@@ -2,13 +2,13 @@
     text-align: center;
     min-height: 99vh;
     background-color: #085F08;
-    background-image: url("../assets/capture2bis.png");
+    background-image: url("../assets/forest2.png");
     background-size: cover;
     background-attachment: fixed;
 }
 
 .demoContainer > div {
-    background-color: rgba(140, 66, 66, 0.445);
+    /*background-color: rgba(140, 66, 66, 0.445);*/
     height: 100%;
     padding-top: 4em;
     padding-bottom: 4em;
@@ -24,4 +24,3 @@
         height: 30vh;
     }
 }
-
