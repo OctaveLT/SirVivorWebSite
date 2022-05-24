@@ -66,7 +66,7 @@ export default function RulesView() {
             <div className='arrowContainer'><ArrowLeft onClick={slideLeft} className="arrow left"/></div>
           </div>
           <div>
-            <h5>{rulesData[getIndex(index)].name}</h5>
+            <h3>{rulesData[getIndex(index)].name}</h3>
             <img src={rulesData[getIndex(index)].img} alt={getIndex(index)} />
             <p>{rulesData[getIndex(index)].description}</p>
           </div>  

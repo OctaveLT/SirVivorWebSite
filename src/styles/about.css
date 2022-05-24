@@ -2,9 +2,12 @@
     text-align: center;
     min-height: 99vh;
     padding-top: 4em;
-    background-image: url("../assets/dirt_desatured_rocks_down.png");
+    /*background-image: url("../assets/dirt_desatured_rocks_down.png");*/
+    background-color: #d4d1c7;
     background-size: cover;
     background-attachment: fixed;
+    color: #3c2d0a;
+    font-family: Montserrat;
 }
 
 .aboutContainer > div {
@@ -18,9 +21,11 @@
     background-color: var(--brown-color);
     margin: 1em;
     padding: 1em 0em 0em 0em;
-    box-shadow: 1px 2px 50px 1px black;
-    height: calc(15vmax + 10vh);
+    /*box-shadow: 1px 2px 50px 1px black;*/
+    /*height: calc(15vmax + 10vh);*/
+    /*border: 1px solid #8d7644;*/
     width: 15vmax;
+
 }
 
 .aboutContainer > div > .content:hover {
@@ -45,6 +50,11 @@
 img {
     width: 15vmax;
     height: 15vmax;
+    border-radius: 10vmax;
+}
+
+.social {
+    color: black;
 }
 
 @media (max-width: 600px) {
