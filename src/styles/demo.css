@@ -1,6 +1,6 @@
 .demoContainer {
     text-align: center;
-    min-height: 99vh;
+    /* min-height: 99vh; */
     background-color: #085F08;
     background-image: url("../assets/forest2.png");
     background-size: cover;
@@ -10,7 +10,7 @@
 .demoContainer > div {
     height: 100%;
     padding-top: 4em;
-    padding-bottom: 4em;
+    padding-bottom: 7em;
 }
 
 .demoContainer > div > iframe {

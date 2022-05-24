@@ -1,6 +1,6 @@
 .audioContainer {
     text-align: center;
-    min-height: 99vh;
+    /* min-height: 99vh; */
     padding-top: 4em;
 }
 
@@ -12,7 +12,8 @@
 }
 
 .audioContainer > div {
-    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 7em;
 }
 
 .audioContainer > div > div {
@@ -20,13 +21,39 @@
 }
 
 .audioScroll {
-    height: 60vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
     padding: 0.3em 1em 0 0.3em;
+    box-shadow: 1px 1px 50px 1px black;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .audioScroll > * {
     padding: 0.3em 0 0.3em 0;
 }
+
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: gainsboro;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8d7644;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ba9b59;
+}
+
