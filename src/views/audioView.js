@@ -20,11 +20,11 @@ export default function AudioView() {
 
   return (
     <div className='audioContainer' id="audioLink">
-      <h2>Sound and Music</h2>
+      <h2>Audio</h2>
       <div>
         <div>
           <p>Sir Vivor has atmospheric music to dive into.</p>
-          <p>The original music is created by group member Benjamin Esdor and can be enjoyed on Soundcloud outside of the game.</p>
+          <p>The original music is created by group member Benjamin Esdor and can be enjoyed on SoundCloud outside of the game.</p>
         </div>
         <div className='audioScroll'>{showSounds()}</div>
       </div>

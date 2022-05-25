@@ -33,7 +33,7 @@ export default function RulesView() {
 
   return (
     <div className='rulesContainer' id="rulesLink">
-        <h2>Specificities</h2>
+        <h2>Features</h2>
 {/*         <div className='content'>
           {rulesData.map(rule => {
             return(
@@ -83,7 +83,7 @@ export default function RulesView() {
 const rulesData = [
   {
     name: "Resources",
-    description: "Collect some resources and combine them to attack.",
+    description: "Collect resources and combine them to perform different attacks.",
     img: Slide1
   },
   {
@@ -98,17 +98,17 @@ const rulesData = [
   },
   {
     name: "Survive",
-    description: "Survive the longer you can through waves of enemies!",
+    description: "Survive as long as you can through waves of enemies!",
     img: Slide1
   },
   {
-    name: "Abilities",
-    description: "Acquire abilities by completing levels.",
+    name: "Power ups",
+    description: "Acquire new abilities through power ups by surviving the waves of enemies.",
     img: Slide2
   },
   {
     name: "Defeat enemies",
-    description: "Waves of various monsters that get stronger!",
+    description: "The waves of various monsters get stronger as the game progresses!",
     img: Slide3
   }
 ]
