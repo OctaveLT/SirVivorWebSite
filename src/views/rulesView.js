@@ -110,5 +110,10 @@ const rulesData = [
     name: "Defeat enemies",
     description: "The waves of various monsters get stronger as the game progresses!",
     img: Slide3
+  },
+  {
+    name: "Marketplace",
+    description: "Buy weapons and packs from merchants at the marketplace in the castle grounds between battles.",
+    img: Slide3
   }
 ]
