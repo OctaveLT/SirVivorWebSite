@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .homeContainer > div {
@@ -18,6 +20,22 @@
     width: auto;
     /* Lag too much */
 /*     filter: drop-shadow(10px 10px 50px rgba(0,0,0)); */
+}
+
+.homeContainer > button {
+    font-size: 1.6vmax;
+    width: 20vmax;
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    color: #393625;
+    margin-bottom: 2em;
+    box-shadow: 1px 1px 100px 5px black;
+}
+
+.homeContainer > button:hover {
+    opacity: 50%;
+
 }
 
 @media (max-width: 600px) {

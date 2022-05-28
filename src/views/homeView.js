@@ -9,6 +9,7 @@ export default function HomeView() {
         <div>
           <img src={logoImg}/>
         </div>
+        <button>Download Now</button>
     </div>
   )
 }

@@ -15,11 +15,8 @@
 .rulesContainer > .content {
     background-color: var(--brown-color);
     opacity: 90%;
+    min-height: 93vh;
     height: 100%;
-/*     padding-left: 9vw;
-    padding-right: 9vw;
-    margin-left: 9vw;
-    margin-right: 9vw; */
     display: flex;
     justify-content: center;
 }
