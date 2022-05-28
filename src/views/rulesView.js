@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import "../styles/rules.css"
-import Slide1 from "../assets/capture1.png"
-import Slide2 from "../assets/capture2.png"
-import Slide3 from "../assets/capture2bis.png"
+import ResourcesSlide from "../assets/resources_slide.png"
+import PowerUpSlide from "../assets/powerup_slide.png"
+import SurviveSlide from "../assets/survive_slide.png"
+import WaveSlide from "../assets/wave_slide.png"
+import ShopSlide from "../assets/shop_slide.png"
+import DesignSlide from "../assets/design_slide.png"
+
 
 import { ArrowLeft, ArrowRight } from "../assets/Icons"
 
@@ -34,33 +38,7 @@ export default function RulesView() {
   return (
     <div className='rulesContainer' id="rulesLink">
         <h2>Features</h2>
-{/*         <div className='content'>
-          {rulesData.map(rule => {
-            return(
-              <div className="card">
-                <div className="cardSide cardSide--front">
-                  <div className="cardDetails">
-                    <p className='title'>{rule.name}</p>
-                  </div>
-                </div>
-                <div className="cardSide cardSide--back">
-                  <div className="cardDetails">
-                    <p className='description'>{rule.description}</p>
-                  </div>
-                </div>
-              </div>
-            )
-          })}
-        </div> 
-        <div className='content'>
-          <img src={Slide1}></img>
-          <img src={Slide1}></img>
-          <img src={Slide1}></img>
-          <img src={Slide1}></img>
-          <img src={Slide1}></img>
-        </div>   */}
-        <div className='content'>
-          
+        <div className='content'>          
           <div>
             {/* <img src={rulesData[getIndex(index + 1)].img} alt={getIndex(index + 1)} className="left"/> */}
             <div className='arrowContainer'><ArrowLeft onClick={slideLeft} className="arrow left"/></div>
@@ -84,31 +62,31 @@ const rulesData = [
   {
     name: "Resources",
     description: "Collect resources and combine them to perform different attacks.",
-    img: Slide1
+    img: ResourcesSlide
   },
   {
     name: "Design",
     description: "Discover a low-poly world in a cartoonish universe.",
-    img: Slide1
+    img: DesignSlide
   },
   {
-    name: "Genre",
-    description: "Enjoy a roguelike game like no-one.",
-    img: Slide1
+    name: "Shop",
+    description: "Improve increasingly your weapons.",
+    img: ShopSlide
   },
   {
     name: "Survive",
     description: "Survive as long as you can through waves of enemies!",
-    img: Slide1
+    img: SurviveSlide
   },
   {
     name: "Power ups",
     description: "Acquire new abilities through power ups by surviving the waves of enemies.",
-    img: Slide2
+    img: PowerUpSlide
   },
   {
     name: "Defeat enemies",
     description: "The waves of various monsters get stronger as the game progresses!",
-    img: Slide3
+    img: WaveSlide
   }
 ]
