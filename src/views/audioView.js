@@ -32,15 +32,16 @@ export default function AudioView() {
   )
 }
 
+// Tracks by Benjamin Esdor: soundcloud.com/sir-vivor-music
 const soundsArray = [
   {
-    track: "1268928949"
+    track: "1276862629"
   },
   {
-    track: "1268925622"
+    track: "1276862260"
   },
   {
-    track: "1268924689"
+    track: "1276861432"
   },
   {
     track: "1268923183"
