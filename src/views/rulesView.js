@@ -70,11 +70,6 @@ const rulesData = [
     img: DesignSlide
   },
   {
-    name: "Shop",
-    description: "Improve increasingly your weapons.",
-    img: ShopSlide
-  },
-  {
     name: "Survive",
     description: "Survive as long as you can through waves of enemies!",
     img: SurviveSlide
@@ -88,5 +83,10 @@ const rulesData = [
     name: "Defeat enemies",
     description: "The waves of various monsters get stronger as the game progresses!",
     img: WaveSlide
+  },
+  {
+    name: "Marketplace",
+    description: "Buy weapons and packs from merchants at the marketplace in the castle grounds between battles.",
+    img: ShopSlide
   }
 ]
