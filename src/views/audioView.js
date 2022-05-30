@@ -11,7 +11,7 @@ export default function AudioView() {
             height="45%" 
             key={"sound" + i} 
             scrolling="no" 
-            frameborder="no" 
+            frameBorder="no" 
             allow="autoplay" 
             src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + sound.track +"&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"}></iframe>
         )

@@ -1,13 +1,12 @@
 .aboutContainer {
     text-align: center;
-    /*min-height: 99vh;*/
     padding-top: 4em;
-    /*background-image: url("../assets/dirt_desatured_rocks_down.png");*/
     background-color: #d4d1c7;
     background-size: cover;
     background-attachment: fixed;
     color: #3c2d0a;
     font-family: Montserrat;
+    font-weight: 600;
 }
 
 .aboutContainer > div {

@@ -1,15 +1,13 @@
 .rulesContainer {
     text-align: center;
-    /* min-height: 99vh; */
     padding-top: 4em;
     padding-bottom: 4em;
     color:#3c2d0a;
+    background-color: #d4d1c7;
 }
 
-.rulesContainer {
-    /*background-image: url("../assets/Grass_lighted_left.png");*/
-    background-color: #d4d1c7;
-    background-attachment: fixed;
+.rulesContainer > p {
+    padding: 0 3em 0 3em;
 }
 
 .rulesContainer > .content {

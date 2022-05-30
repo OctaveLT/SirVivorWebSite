@@ -3,17 +3,39 @@
   src: local('MiddleAgeFont'), url(./assets/mael.regular.ttf) format('truetype');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Roboto', sans-serif;
-    src: local('Roboto'), url(./assets/Roboto-Thin.ttf);
-}
-
+    src: local('Roboto'), url(./assets/Roboto-Thin.ttf) format('truetype');
+} */
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @font-face {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-}
+} */
 
+/* @font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: local('Montserrat'), url(./assets/Montserrat.ttf) format('truetype');
+} */
+
+/* cyrillic-ext */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Montserrat'), url(./assets/Montserrat3.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+} */
+
+/* @font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  src: local('Montserrat'), url(./assets/Montserrat.ttf) format('truetype');
+}
+ */
 body {
   background-color: #393625;
   background-attachment: fixed;
@@ -59,7 +81,7 @@ p {
 /* Scrollbar */
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 
 /* Track */
