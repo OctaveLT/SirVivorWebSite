@@ -20,7 +20,7 @@
     width: auto;
 }
 
-.homeContainer > button {
+.homeContainer button {
     font-size: 1.6vmax;
     width: 20vmax;
     padding: 1em;
@@ -31,8 +31,8 @@
     box-shadow: 1px 1px 100px 5px black;
 }
 
-.homeContainer > button:hover {
-    opacity: 50%;
+.homeContainer button:hover {
+    opacity: 70%;
 
 }
 

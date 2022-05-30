@@ -9,7 +9,9 @@ export default function HomeView() {
         <div>
           <img src={logoImg}/>
         </div>
-        <button>Download Now</button>
+        <form action="https://drive.google.com/file/d/15FkpcdPc-VB4f83whM6mdJc-spX8IW80/view?usp=sharing" method="get" target="_blank">
+          <button type="submit">Download Now</button>
+        </form>
     </div>
   )
 }

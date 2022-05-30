@@ -3,6 +3,11 @@
   src: local('MiddleAgeFont'), url(./assets/mael.regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./assets/argentum-sans.extralight.ttf) format('truetype');
+}
+
 /* @font-face {
     font-family: 'Roboto', sans-serif;
     src: local('Roboto'), url(./assets/Roboto-Thin.ttf) format('truetype');
@@ -20,7 +25,7 @@
 } */
 
 /* cyrillic-ext */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); */
 /* @font-face {
   font-family: 'Montserrat';
   font-style: normal;
