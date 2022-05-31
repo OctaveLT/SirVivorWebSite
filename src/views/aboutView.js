@@ -1,11 +1,11 @@
 import React from 'react'
 import "../styles/about.css"
 
-import BenImg from "../assets/benPic.png";
-import HaritsImg from "../assets/haritsPic.jpg";
-import LisaImg from "../assets/lisaPic.jpeg";
-import OctaveImg from "../assets/octavePic.jpg";
-import QinbaiImg from "../assets/qinbaiPic.jpg";
+import BenImg from "../assets/pics/benPic.png";
+import HaritsImg from "../assets/pics/haritsPic.jpg";
+import LisaImg from "../assets/pics/lisaPic.jpeg";
+import OctaveImg from "../assets/pics/octavePic.jpg";
+import QinbaiImg from "../assets/pics/qinbaiPic.jpg";
 
 import {GitHubIcon, LinkedInIcon} from "../assets/Icons"
 

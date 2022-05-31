@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import "../styles/rules.css"
-import ResourcesSlide from "../assets/resources_slide.png"
-import PowerUpSlide from "../assets/powerup_slide.png"
-import SurviveSlide from "../assets/survive_slide.png"
-import WaveSlide from "../assets/wave_slide.png"
-import ShopSlide from "../assets/shop_slide.png"
-import DesignSlide from "../assets/design_slide.png"
+import ResourcesSlide from "../assets/slides/resources_slide.png"
+import PowerUpSlide from "../assets/slides/powerup_slide.png"
+import SurviveSlide from "../assets/slides/survive_slide.png"
+import WaveSlide from "../assets/slides/wave_slide.png"
+import ShopSlide from "../assets/slides/shop_slide.png"
+import DesignSlide from "../assets/slides/design_slide.png"
 
 
 import { ArrowLeft, ArrowRight } from "../assets/Icons"
