@@ -38,7 +38,7 @@ export default function RulesView() {
   return (
     <div className='rulesContainer' id="rulesLink">
         {/* <h2>Features</h2> */}
-        <p>Become a hero, <strong>collect</strong> and manage resources, and <strong>combine</strong> them to fight enemies in order to <strong>survive</strong> and protect your kingdom!</p>
+        <p>So, become a hero, <strong>collect</strong> and manage resources, and <strong>combine</strong> them to fight enemies in order to <strong>survive</strong> and protect your kingdom!</p>
         <div className='content'>          
           <div>
             {/* <img src={rulesData[getIndex(index + 1)].img} alt={getIndex(index + 1)} className="left"/> */}

@@ -16,8 +16,12 @@
 }
 
 .homeContainer > div > img {
-    height: 55vmax;
+    height: 45vmax;
     width: auto;
+}
+
+.homeContainer p {
+    padding: 0 3em 1em 3em
 }
 
 .homeContainer button {
